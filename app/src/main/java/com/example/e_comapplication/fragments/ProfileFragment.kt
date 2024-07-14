@@ -103,7 +103,6 @@ class ProfileFragment : Fragment() {
                 Toast.makeText(context, "Fields cannot be empty", Toast.LENGTH_SHORT).show()
             }
 
-            Log.d("Email TAG","$email, password= $password, firstname= $firstName, lastName= $lastName")
 
         }
 
