@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">E-Com Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_rated_products">Top Rated Products</string>
+    <string name="see_all">See all</string>
+    <string name="search_here">Search here</string>
+    <string name="categories">Categories</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="return_policy">
+**Return Policy**
+
+Thank you for shopping with NorthwebStar! We want to ensure you have a satisfying shopping experience with us. Please take a moment to review our return policy below:
+
+**1. Return Period:**
+
+You can return any unworn, unwashed, and undamaged item purchased from NorthwebStar within 30 days of delivery.
+
+**2. Eligibility:**
+
+To be eligible for a return, your item must be unused, with tags intact, and in the same condition that you received it. It must also be in the original packaging.
+
+**3. Reasons for Return:**
+
+You may return items due to size issues, color discrepancies, quality concerns, or if the item received is different from what you ordered.
+
+**4. Non-Returnable Items:**
+
+Certain items such as innerwear, lingerie, and items marked as non-returnable during purchase are not eligible for return due to hygiene reasons.
+
+**5. Return Process:**
+
+* Initiate a return request by logging into your NorthwebStar account.
+* Choose the item(s) you wish to return and provide reasons for the return.
+* Select a pickup option (if available) or drop off the package at a designated courier service.
+* Ensure the item is securely packed with all original tags and packaging.
+
+**6. Refund/Exchange:**
+
+Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.
+* If approved, your refund will be processed to your original method of payment within 7 days.
+* Exchanges for a different size or color of the same item are subject to availability.
+
+**7. Cancellation Policy:**
+
+You may cancel your order before it has been shipped for a full refund. Once shipped, our standard return policy applies.
+
+**Contact Us:**
+
+If you have any questions regarding our return policy, feel free to contact our customer service team at contact@northwebstar.com.
+
+</string>
+    <string name="dont_have_an_acccount">Don\'t have an account? <font color="#2651bd">Sign Up.</font></string>
+    <string name="already_have_an_acccount">Already have an account? <font color="#2651bd">Log in.</font></string>
+</resources>

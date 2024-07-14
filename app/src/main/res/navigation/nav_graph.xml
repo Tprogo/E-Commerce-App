@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.e_comapplication.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailInfoFragment"
+            app:destination="@id/detailInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_exploreFragment"
+            app:destination="@id/exploreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.e_comapplication.fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment_to_detailInfoFragment"
+            app:destination="@id/detailInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.e_comapplication.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/wishListFragment"
+        android:name="com.example.e_comapplication.fragments.WishListFragment"
+        android:label="fragment_wish_list"
+        tools:layout="@layout/fragment_wish_list" >
+        <action
+            android:id="@+id/action_wishListFragment_to_detailInfoFragment"
+            app:destination="@id/detailInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailInfoFragment"
+        android:name="com.example.e_comapplication.fragments.DetailInfoFragment"
+        android:label="fragment_detail_info"
+        tools:layout="@layout/fragment_detail_info" >
+        <action
+            android:id="@+id/action_detailInfoFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <argument
+            android:name="id"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_detailInfoFragment_to_wishListFragment"
+            app:destination="@id/wishListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.example.e_comapplication.fragments.DescriptionFragment"
+        android:label="fragment_description"
+        tools:layout="@layout/fragment_description" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.e_comapplication.fragments.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_exploreFragment_to_detailInfoFragment"
+            app:destination="@id/detailInfoFragment" />
+        <argument
+            android:name="keyword"
+            app:argType="string"
+            android:defaultValue="women" />
+    </fragment>
+</navigation>
